@@ -19,5 +19,5 @@ void printIt(void)
 int main(void)
 {
 	printIt();
-	return (0);
+	return (1);
 }
