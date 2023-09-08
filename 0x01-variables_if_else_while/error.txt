@@ -1,0 +1,7 @@
+1-last_digit.c: In function ‘main’:
+1-last_digit.c:26:21: error: expected ‘;’ before ‘return’
+   26 |                 puts
+      |                     ^
+      |                     ;
+   27 |                 return (0);
+      |                 ~~~~~~
