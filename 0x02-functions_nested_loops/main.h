@@ -1,9 +1,8 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+#include <stdlib.h>
 #include <stdio.h>
-	void print_alphabet(void)
-	{
-		int i;
-		for (i = 97; i <= 122; i++)
-		{
-			putchar(i);
-		}
-	}
+#include <unistd.h>
+int _putchar(char c);
+void print_alphabet(void);
+#endif
