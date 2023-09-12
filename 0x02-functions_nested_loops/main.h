@@ -1,9 +1,9 @@
 #include <stdio.h>
 	void print_alphabet(void)
 	{
-		int i = 97;
-		putchar(i);
-		i++;
-		if (i <= 122)
-		print_alphabet();
+		int i;
+		for (i = 97; i <= 122; i++)
+		{
+			putchar(i);
+		}
 	}
