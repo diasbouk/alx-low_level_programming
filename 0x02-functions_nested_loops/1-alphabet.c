@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main-The main function
+* print_alphabet-The main function
 * Description: THe description
  * void: no args
  * printf:Prints the string
@@ -9,9 +9,9 @@
 void print_alphabet(void)
 {
 	int i;
-	for (i = 97; i <= 122; i++)
-	{
-		_putchar(i);
-	}
-	_putchar(10);
+		for (i = 97; i <= 122; i++)
+		{
+			_putchar(i);
+		}
+		_putchar(10);
 }
