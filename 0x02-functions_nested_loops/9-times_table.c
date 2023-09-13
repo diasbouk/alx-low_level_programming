@@ -19,14 +19,14 @@ void times_table(void)
 			{
 				count = count + i;
 					if (count <= 9)
-                                {
-                                        printf(" ");
-                                }
-					printf(" %d,", count);
-				if (j == 8)
-				{
-					printf("$");
-				}
+					{
+						printf(" ");
+					}
+					printf(" %d", count);
+					if (j < 8)
+					{
+						printf(",");
+					}
 			}
 			count = 0;
 			printf("\n");
