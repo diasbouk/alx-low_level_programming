@@ -22,7 +22,7 @@ void times_table(void)
                                 {
                                         printf(" ");
                                 }
-					printf(" %d", count);
+					printf(" %d,", count);
 				if (j == 8)
 				{
 					printf("$");
