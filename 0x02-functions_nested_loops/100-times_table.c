@@ -37,10 +37,10 @@ void print_times_table(int n)
 				count = 0;
 				printf("\n");
 			}
+		}
 		if (n == 0)
 		{
 			printf("0\n");
-		}
 		}
 }
 
