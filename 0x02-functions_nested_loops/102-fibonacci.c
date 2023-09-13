@@ -16,7 +16,7 @@ int main(void)
 			fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 			printf("%lu, ", fibonacci[i]);
 		}
-		printf("20365011074\n");
+		printf("20365011074");
 		printf("\n");
 		return (0);
 }
