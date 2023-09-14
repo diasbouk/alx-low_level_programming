@@ -16,7 +16,7 @@ void more_numbers(void)
 			}
 			for (k = 48; k <= 52; k++)
 			{
-				putchar(49);
+				printf("1");
 				putchar(k);
 			}
 			putchar(10);
