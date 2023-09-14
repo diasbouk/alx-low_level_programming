@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_square - check the code
+ *@size: 7adari mn malloc
  * Return: Always 0.
  */
 void print_square(int size)
