@@ -14,9 +14,11 @@ void more_numbers(void)
 			{
 				putchar(j);
 			}
+				putchar(49);
+				putchar(48);
 			for (k = 49; k <= 52; k++)
 			{
-				putchar(48);
+				putchar(49);
 				putchar(k);
 			}
 				putchar(10);
