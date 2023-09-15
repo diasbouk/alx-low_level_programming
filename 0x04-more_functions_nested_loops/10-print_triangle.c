@@ -18,7 +18,10 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
+		if (k < size)
+		{
 		_putchar('\n');
+		}
 		}
 		_putchar('\n');
 }
