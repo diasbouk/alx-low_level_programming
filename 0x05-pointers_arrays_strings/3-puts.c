@@ -7,5 +7,13 @@
  */
 void _puts(char *str)
 {
-	write(1,str,(sizeof(*str) / sizeof(char)));
+	int i;
+		i = 0;
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
+
 }
