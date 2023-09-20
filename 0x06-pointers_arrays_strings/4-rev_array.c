@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
  * reverse_array - check the code
  * @a: array
@@ -7,16 +7,12 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i, j;
-		i = 0;
-		j = 0;
-		while (i <= n)
+	int i, count;
+		count = 0;
+		for (i = 0; i <= n / 2 ; i++)
 		{
-			i++;
+			count = a[i]; 
+			a[i] = a[n - i - 1];
+			a[n - i - 1] = count;
 		}
-		for (j = 0; j <= n; j++)
-		{
-			a[j] = a[i];
-			i--;
-			j++;
-		}
+}
