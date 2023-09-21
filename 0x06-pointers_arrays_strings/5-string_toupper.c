@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * stirng_toupper - check the code
+ * *string_toupper - check the code
  * @str: string
  * Return: Always 0.
  */
@@ -13,7 +13,7 @@ char *string_toupper(char *str)
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
 			{
-				str[i] = (int)str[i] -32;
+				str[i] = (int)str[i] - 32;
 			}
 			i++;
 		}
