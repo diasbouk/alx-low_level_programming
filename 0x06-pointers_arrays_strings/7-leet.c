@@ -11,8 +11,8 @@ char *leet(char *str)
 		i = 0;
 		char s[] = { 'a', 'e', 'o', 't', 'l' };
 		char l[] = { 4, 3, 0, 7, 1 };
-		while (str[i])
-		{
+			while (str[i])
+			{
 			for (i = 0; i < 5; i++)
 			{
 				if (str[i] == s[i])
@@ -21,6 +21,6 @@ char *leet(char *str)
 				}
 			}
 			i++;
-		}
-		return (str);
+			}
+			return (str);
 }
