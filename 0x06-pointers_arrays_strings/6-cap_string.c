@@ -13,7 +13,7 @@ int i;
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
 			{
-				if (str[i - 1] >= 0 && str[i - 1] <= '/')
+				if (str[i - 1] >= 0 && str[i - 1] <= '/' && str[i - 1] != '-')
 				{
 				str[i] = (int)str[i] - 32;
 				}
