@@ -9,9 +9,9 @@ char *leet(char *s)
 {
 	char a[] = "aeotlAEOTL";
 	char n[] = "4307143071";
-	int i = 0;
+	int i;
 	int j;
-
+		i = 0;
 	while (*(s + i) != '\0')
 	{
 		for (j = 0; j <= 9; j++)
