@@ -5,22 +5,23 @@
  * @str: string to be leeted
  * Return: Always 0.
  */
-char *leet(char *str)
+char *leet(char *s)
 {
-	int i;
-		i = 0;
-		char s[] = { 'a', 'e', 'o', 't', 'l' };
-		char l[] = { 4, 3, 0, 7, 1 };
-			while (str[i])
+	char a[] = "aeotlAEOTL";
+	char n[] = "4307143071";
+	int i = 0;
+	int j;
+
+	while (*(s + i) != '\0')
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			if (*(s + i) == a[j])
 			{
-			for (i = 0; i < 5; i++)
-			{
-				if (str[i] == s[i])
-				{
-					str[i] = l[i];
-				}
+				*(s + i) = n[j];
 			}
-			i++;
-			}
-			return (str);
+		}
+		i++;
+	}
+	return (s);
 }
