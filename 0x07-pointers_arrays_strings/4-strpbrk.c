@@ -13,10 +13,10 @@ i = 0;
 j = 0;
 while (s[i + 1] != '\0' && *s != ' ')
 {
-    i++;
+i++;
 while (accept[j + 1])
 {
-    j++;
+j++;
 if (s[i + 1] == accept[j + 1])
 {
 break;
@@ -24,7 +24,7 @@ break;
 }
 if (accept[j + 1] != '\0')
 {
-return &s[i + 1];
+return (&s[i + 1]);
 }
 }
 return ('\0');
