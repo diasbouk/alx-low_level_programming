@@ -13,7 +13,6 @@ while (*haystack != '\0')
 while ((*haystack == *needle && *needle != '\0') || !*needle)
 {
 return (haystack);
-
 }
 haystack++;
 }
