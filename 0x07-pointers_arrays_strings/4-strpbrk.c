@@ -16,7 +16,7 @@ while (s[i + 1] != '\0' && *s != ' ')
 while (accept[j + 1] != '\0')
 {
 j++;
-if (s[i + 1] == accept[j + 1])
+if (s[i + 1] == accept[j + 1] && accept[j + 1] != '\0')
 return (&s[i + 1]);
 break;
 }
