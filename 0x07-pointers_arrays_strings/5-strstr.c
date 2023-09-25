@@ -20,5 +20,5 @@ haystack++;
 }
 if (*needle == '\0')
 return (haystack);
-return ('\0');
+return (0);
 }
