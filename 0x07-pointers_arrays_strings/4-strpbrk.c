@@ -27,5 +27,5 @@ if (accept[j + 1] != '\0')
 return (&s[i + 1]);
 }
 }
-return ('\0');
+return (0);
 }
