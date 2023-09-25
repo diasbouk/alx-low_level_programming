@@ -13,14 +13,19 @@ i = 0;
 j = 0;
 while (s[i + 1] != '\0' && *s != ' ')
 {
-while (accept[j + 1] != '\0')
+    i++;
+while (accept[j + 1])
 {
-j++;
-if (s[i + 1] == accept[j + 1] && accept[j + 1] != '\0')
-return (&s[i + 1]);
+    j++;
+if (s[i + 1] == accept[j + 1])
+{
 break;
 }
-i++;
+}
+if (accept[j + 1] != '\0')
+{
+return &s[i + 1];
+}
 }
 return ('\0');
 }
