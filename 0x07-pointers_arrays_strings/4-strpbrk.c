@@ -22,6 +22,7 @@ ret = &s[i];
 break;
 }
 i++;
+j = 0;
 }
 return (ret);
 }
