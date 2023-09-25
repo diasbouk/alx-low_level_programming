@@ -12,11 +12,11 @@ int i, j;
 char *ret;
 i = 0;
 j = 0;
-while (s[i] != '\0')
+while (s[i] != '\0' && s[i] != ' ')
 {
 while (accept[j] != '\0')
 {
-    j++;
+j++;
 if (s[i] == accept[j])
 ret = &s[i];
 break;
