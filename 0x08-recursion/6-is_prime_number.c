@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ *  is_prime_number- check the code
+ * @n: number
  * Return: Always 0.
  */
 int is_prime_number(int n)
