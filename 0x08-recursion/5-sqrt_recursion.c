@@ -13,7 +13,7 @@ if (d * d == c)
 return (d);
 else if (d * d > c)
 return (-1);
-return (sqrt2(c, d + 1));
+return (sqrtTwo(c, d + 1));
 }
 /**
  * _sqrt_recursion - returns n square
