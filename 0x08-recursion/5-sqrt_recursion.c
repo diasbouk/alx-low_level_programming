@@ -9,11 +9,11 @@
  */
 int sqrtTwo(int c, int d)
 {
-	if (d * d == c)
-		return (d);
-	else if (d * d > c)
-		return (-1);
-	return (sqrt2(c, d + 1));
+if (d * d == c)
+return (d);
+else if (d * d > c)
+return (-1);
+return (sqrt2(c, d + 1));
 }
 /**
  * _sqrt_recursion - returns n square
@@ -23,5 +23,5 @@ int sqrtTwo(int c, int d)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrtTwo(n, 1));
+return (sqrtTwo(n, 1));
 }
