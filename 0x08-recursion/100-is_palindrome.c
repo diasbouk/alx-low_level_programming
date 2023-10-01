@@ -15,7 +15,6 @@ else if (findex == lindex)
 palindrome(s, findex + 1, lindex - 1);
 else
 return (0);
-return (0);
 }
 
 /**
