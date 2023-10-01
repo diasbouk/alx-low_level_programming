@@ -14,7 +14,8 @@ return (1);
 else if (findex == lindex)
 palindrome(s, findex + 1, lindex - 1);
 else
-return (0);
+return (palindrome(s, findex + 1, lindex - 1));
+return (palindrome(s, findex + 1, lindex - 1));
 }
 
 /**
