@@ -18,6 +18,5 @@ printf("Error");
 else
 i = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", i);
-
 return (0);
 }
