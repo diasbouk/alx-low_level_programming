@@ -34,7 +34,6 @@ count++;
 }
 return (count);
 }
-
 /**
  * main - Takes in exactly one argument for minimum coin count
  * @argc: Number of command line arguments
