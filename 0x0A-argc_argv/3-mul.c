@@ -13,7 +13,7 @@ int i;
 i = 0;
 if (argc != 3)
 {
-printf("Error");
+printf("Error\n");
 }
 else
 i = atoi(argv[1]) * atoi(argv[2]);
