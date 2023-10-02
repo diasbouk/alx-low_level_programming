@@ -15,7 +15,7 @@ i = 1;
 count = 0;
 if (argc)
 {
-    if (atoi(argv[i]))
+if (atoi(argv[i]))
 {
 for (i = 1; i < argc; i++)
 {
