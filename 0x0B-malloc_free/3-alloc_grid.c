@@ -2,9 +2,9 @@
 
 /**
  * alloc_grid - Entry point
- *@width: rows of matrix
- *@height: columns of string
- * Return: a pointer to a 2 dimensional array of integers or null
+ *@width: rows of array
+ *@height: cols
+ * Return: ptr to 2D array
  */
 int **alloc_grid(int width, int height)
 {
