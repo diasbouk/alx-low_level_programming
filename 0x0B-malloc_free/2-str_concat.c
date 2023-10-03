@@ -9,36 +9,19 @@
 char *str_concat(char *s1, char *s2)
 {
 char *newStr;
-int i = 0;
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
-}
-else if (s2 == NULL && s2 != NULL)
-{
-return (s2);
-}
-else if (s1 == NULL && s1 != NULL)
-{
-return (s1);
 }
 newStr = malloc(sizeof(char) * (strlen(s1) + strlen(s2)) + 1);
-if (newStr == NULL)
+if (s1 != NULL)
 {
-return (NULL);
+strncpy(newStr, s1, strlen(s1));
 }
-while (*s1 != '\0')
+if (s2 != NULL)
 {
-newStr[i] = *s1;
-s1++;
-i++;
+strcat(newStr, s2);
 }
-while (*s2 != '\0')
-{
-newStr[i] = *s2;
-s2++;
-i++;
-}
-return (newStr);
+return(newStr);
 free(newStr);
 }
