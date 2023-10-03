@@ -12,7 +12,8 @@ char *newStr;
 if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
-newStr = malloc(0);
+newStr = malloc(1);
+strcat(newStr, "\n");
 }
 if (s1 != NULL && s2 != NULL)
 {
