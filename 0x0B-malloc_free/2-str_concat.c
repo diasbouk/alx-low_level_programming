@@ -16,11 +16,11 @@ return (NULL);
 }
 else if (s2 == NULL && s2 != NULL)
 {
-    return (s2);
+return (s2);
 }
 else if (s1 == NULL && s1 != NULL)
 {
-    return (s1);
+return (s1);
 }
 newStr = malloc(sizeof(char) * (strlen(s1) + strlen(s2)) + 1);
 if (newStr == NULL)
