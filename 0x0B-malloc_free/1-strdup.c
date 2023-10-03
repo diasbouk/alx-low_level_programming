@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- *
+ * _strdup - check the code for ALX School students.
+ * @str: string to duplicate
  * Return: Always 0.
  */
 char *_strdup(char *str)
