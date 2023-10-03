@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- *
+ * str_concat - check the code for ALX School students.
+ * @s1: string 1
+ * @s2: string 2
  * Return: Always 0.
  */
 char *str_concat(char *s1, char *s2)
