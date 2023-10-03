@@ -14,9 +14,13 @@ if (s1 == NULL && s2 == NULL)
 return (NULL);
 }
 newStr = malloc(sizeof(char) * (strlen(s1) + strlen(s2)) + 1);
+if (newStr == NULL)
+{
+return (NULL);
+}
 if (s1 != NULL)
 {
-strncpy(newStr, s1, strlen(s1));
+strcat(newStr, s1);
 }
 if (s2 != NULL)
 {
