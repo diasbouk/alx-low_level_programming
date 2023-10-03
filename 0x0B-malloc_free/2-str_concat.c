@@ -13,6 +13,7 @@ if (s1 == NULL && s2 == NULL)
 {
 newStr = malloc(1);
 strcat(newStr, "\0");
+return (newStr);
 }
 if (s1 != NULL && s2 != NULL)
 {
