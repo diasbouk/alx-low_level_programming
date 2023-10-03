@@ -13,6 +13,7 @@ unsigned int i = 0;
 char *ptr = malloc(size);
 if (ptr == 0)
 {
+return (ptr);
 return (NULL);
 }
 while (i <= size)
