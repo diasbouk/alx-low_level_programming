@@ -29,7 +29,7 @@ else if (s2 != NULL && s1 == NULL)
 newStr = malloc(sizeof(char) * strlen(s2) + 1);
 strcat(newStr, s2);
 }
-if (newStr == NULL)
+else if (newStr == NULL)
 {
 return (NULL);
 }
