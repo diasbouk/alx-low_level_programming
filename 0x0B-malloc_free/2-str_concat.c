@@ -13,25 +13,25 @@ if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }
-else if (s1 != NULL && s2 != NULL)
+if (s1 != NULL && s2 != NULL)
 {
 newStr = malloc(sizeof(char) * (strlen(s1) + strlen(s2)) + 1);
+if (newStr == NULL)
+{
+return (NULL);
+}
 strcat(newStr, s1);
 strcat(newStr, s2);
 }
-else if (s1 != NULL && s2 == NULL)
+else if (s1 != NULL)
 {
 newStr = malloc(sizeof(char) * strlen(s1) + 1);
 strcat(newStr, s1);
 }
-else if (s2 != NULL && s1 == NULL)
+else if (s2 != NULL)
 {
 newStr = malloc(sizeof(char) * strlen(s2) + 1);
 strcat(newStr, s2);
-}
-else if (newStr == NULL)
-{
-return (NULL);
 }
 return (newStr);
 free(newStr);
