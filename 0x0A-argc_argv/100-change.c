@@ -8,15 +8,16 @@
  */
 int	main(int argc, char *argv[])
 {
-int money = atoi(argv[1]);
+int money;
 int coins = 0;
-if (argc)
-{
-if (argv[2] || !argv[1])
+if (argc < 2 || argc > 2)
 {
 printf("Error\n");
 return (1);
 }
+else
+{
+money = atoi(argv[1]);
 while (money >= 25)
 {
 coins++;
