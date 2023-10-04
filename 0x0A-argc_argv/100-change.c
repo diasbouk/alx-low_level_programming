@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - check the code
  * @argc: numbre of commands
@@ -16,6 +15,7 @@ if (argc)
 if (argv[2] || !argv[1])
 {
 printf("Error\n");
+return (1);
 }
 while (money >= 25)
 {
