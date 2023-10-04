@@ -21,27 +21,27 @@ money = atoi(argv[1]);
 while (money >= 25)
 {
 coins++;
-money = money - 25; 
+money = money - 25;
 }
 while (money >= 10)
 {
 coins++;
-money = money - 10; 
+money = money - 10;
 }
 while (money >= 5)
 {
 coins++;
-money = money - 5; 
+money = money - 5;
 }
 while (money >= 2)
 {
 coins++;
-money = money - 2; 
+money = money - 2;
 }
 while (money >= 1)
 {
 coins++;
-money = money - 1; 
+money = money - 1;
 }
 printf("%d\n", coins);
 }
