@@ -9,6 +9,5 @@
  */
 void free_grid(int **grid, int height)
 {
-grid = alloc_grid(height, height);
-free(grid);
+
 }
