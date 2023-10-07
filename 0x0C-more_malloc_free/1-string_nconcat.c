@@ -8,25 +8,13 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-		if ((sizeof(*s2) / sizeof(char)) >= n )
-		{
-			ptr = malloc(sizeof(*s1) + (n * sizeof(char)));
-		}
+		if (n <= sizeof(*s2))
+			ptr = malloc(sizeof(*(strncat(s1, s2, n))));
 		else
-		{
-			ptr = malloc(sizeof(*s1) + (sizeof(char) * n));
-		}
+			ptr = malloc(sizeof(*s1) + sizeof(*s2));
 		if (ptr == NULL)
-		{
 			return (NULL);
-		}
-		if (s1 == NULL || s2 == NULL)
-		{
-			return (NULL);
-		}
-		strncat(s1, s2, n);
-		*ptr = *s1;
+		ptr = strncat(s1, s2, n);
 		return (ptr);
-		free(ptr);
 		free(ptr);
 }
