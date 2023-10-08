@@ -10,11 +10,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 char *ptr;
 if (s1 == NULL)
 {
-s1 = " ";
+s1 = "";
 }
 if (s2 == NULL)
 {
-s2 = " ";
+s2 = "";
 }
 if (n <= strlen(s2))
 {
@@ -30,5 +30,4 @@ return (NULL);
 }
 ptr = strncat(s1, s2, n);
 return (ptr);
-free(ptr);
 }
