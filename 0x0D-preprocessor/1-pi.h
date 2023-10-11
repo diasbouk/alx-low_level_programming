@@ -1,4 +1,4 @@
 #ifndef HEADER
 #define HEADER
-#define size  1024
+#define PI 3.14159265359
 #endif
