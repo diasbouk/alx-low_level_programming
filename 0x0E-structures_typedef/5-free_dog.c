@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
- *
+ * free_dog - check the code
+ * @d: pointer to dog struct
  * Return: Always 0.
  */
 void free_dog(dog_t *d)
