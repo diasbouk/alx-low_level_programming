@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * new-dog - check the code
+ * new_dog - check the code
  * @name: name
  * @age: age
  * @owner: owner
