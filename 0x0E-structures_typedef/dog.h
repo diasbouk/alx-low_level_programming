@@ -2,6 +2,7 @@
 #define HEADER
 /**
  * struct dog - struct
+ * struct dog_t - new type
  * @name: name
  * @age: age
  * @owner: owner
