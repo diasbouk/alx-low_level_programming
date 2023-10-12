@@ -13,10 +13,13 @@ if (n == 0)
 {
 return (0);
 }
+else
+{
 va_start(nums, n);
 for (i = 0; i < n; i++)
 {
 count = count + va_arg(nums, int);
+}
 }
 return (count);
 }
