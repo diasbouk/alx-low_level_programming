@@ -6,14 +6,14 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
+va_list arg;
 unsigned int i;
 unsigned int count = 0;
-va_list nums;
-va_start(nums, n);
+va_start(arg, n);
 for (i = 0; i < n; i++)
 {
-count = count + va_arg(nums, int);
+count = count + va_arg(arg, int);
 }
-va_end(nums);
+va_end(arg);
 return (count);
 }
