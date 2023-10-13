@@ -13,10 +13,9 @@ va_list arg;
 unsigned int i = 0;
 unsigned int count = 0;
 va_start(arg, n);
-while (i < n)
+for (i = 0; i < n; i++)
 {
 count += va_arg(arg, int);
-i++;
 }
 va_end(arg);
 return (count);
