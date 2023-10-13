@@ -14,6 +14,7 @@ for (i = 0; i < n; i++)
 {
 count = count + va_arg(nums, int);
 }
+va_end(nums);
 return (count);
 if (n == 0)
 {
