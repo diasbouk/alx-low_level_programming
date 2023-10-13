@@ -8,7 +8,7 @@
  * @n: number of args to add .
  * Return: sum of all arguments
 */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list arg;
 unsigned int i = 0;
@@ -17,7 +17,7 @@ if (separator != NULL)
 {
 while (i < n)
 {
-printf("%d", va_arg(arg, int));
+printf("%s", va_arg(arg, char *));
 if (i < n - 1)
 {
 printf("%c ", *separator);
