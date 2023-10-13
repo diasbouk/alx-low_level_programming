@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * print_numbers - Function to print numbers
- * @separator
+ * print_strings - Function to print numbers
+ * @separator: sep
  * @n: number of args to add .
- * Return: sum of all arguments
+ * Return: strings
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
