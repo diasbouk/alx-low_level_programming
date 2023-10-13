@@ -21,9 +21,7 @@ printf("%c ", *separator);
 }
 i++;
 }
-{
 printf("\n");
-}
 va_end(arg);
 }
 }
