@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - function to print nodes integers abd return number of nodes .
+ * print_listint - function to print nodes && return number of nodes .
  *  @h: pointer to the first node of list .
  * Return: number of nodes .
  */
