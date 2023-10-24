@@ -4,19 +4,19 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at - Finds Nth node of list
+ * get_nodeint_at_index - Finds Nth node of list
  * @head:: pointer to the first element
  * @index: index of Nth node
  * Return: Nth node's data
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	int n = 0;
-		while(i < index)
+	unsigned int i = 0;
+		while (i < index)
 		{
-			i++
-			h = h->next;
+			i++;
+			head = head->next;
 		}
-		return (h);
+		return (head);
 }
 
