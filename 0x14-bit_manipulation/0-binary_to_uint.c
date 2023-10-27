@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * binary_to_unit - function to decode
+ * @b: number in binary as string format
+ * Return: decoded num
  */
 unsigned int binary_to_uint(const char *b)
 {
