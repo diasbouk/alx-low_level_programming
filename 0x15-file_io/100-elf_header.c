@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * elf_header - elf
+ * main - elf
  */
-void elf_header(void)
+int main(void)
 {
 	puts("time wasnt enough :( \n");
+	return (0);
 }
