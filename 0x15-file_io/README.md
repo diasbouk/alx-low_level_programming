@@ -1,12 +1,12 @@
 
-Resources
+# Resources
 
-Read or watch:
+# Read or watch:
 
     File descriptors
     C Programming in Linux Tutorial #024 - open() read() write() Functions
 
-man or help:
+# man or help:
 
     open
     close
@@ -17,7 +17,7 @@ man or help:
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-General
+# General
 
     Look for the right source of information online
     How to create, open, close, read and write files
@@ -29,15 +29,15 @@ General
     What is a system call
     What is the difference between a function and a system call
 
-Copyright - Plagiarism
+# Copyright - Plagiarism
 
     You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
     You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
     You are not allowed to publish any content of this project.
     Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-Requirements
-General
+# Requirements
+ # General
 
     Allowed editors: vi, vim, emacs
     All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
