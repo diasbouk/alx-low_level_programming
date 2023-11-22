@@ -25,5 +25,4 @@ str++;
 i++;
 }
 return (newStr);
-free(newStr);
 }
