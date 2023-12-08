@@ -7,9 +7,9 @@
  * free_listint - Adds new node t=at the first of a list
  * @head: pointer to list head adress
  */
-void free_listint(listint_t *head)
+void free_dlistint(dlistint_t *head)
 {
-	listint_t *fr;
+	dlistint_t *fr;
 		while ((fr = head) != NULL)
 		{
 			head = head->next;
