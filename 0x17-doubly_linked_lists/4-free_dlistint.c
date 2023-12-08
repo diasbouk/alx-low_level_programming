@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
- * free_listint - Adds new node t=at the first of a list
- * @head: pointer to list head adress
+ * free_dlistint - Frees a doubly linkde list
+ * @head: pointer to head
  */
 void free_dlistint(dlistint_t *head)
 {
