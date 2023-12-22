@@ -2,9 +2,9 @@
 
 /**
  * key_index - Finds the index of a key
- * @key: Key of index we're looking for 
+ * @key: Key of index we're looking for
  * @size: size of array of our hash_tables
- * Return:Returns the index at which the key/value pair should be stored in the array of the hash table
+ * Return:Returns the index at which the key/value
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
