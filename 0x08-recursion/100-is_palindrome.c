@@ -1,34 +1,47 @@
 #include "main.h"
 
 /**
- * palindrome - check the code
- * @s: s
- * @findex: index 0
-  * @lindex: index l
- * Return: Always 0.
+ * palind2 - obtains length of a
+ * @a: string
+ * @l: integer to count length
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int palindrome(char *s, int findex, int lindex)
+int palind2(char *a, int l)
 {
-if (findex >= lindex)
-return (1);
-else if (findex == lindex)
-palindrome(s, findex + 1, lindex - 1);
-else
-return (palindrome(s, findex + 1, lindex - 1));
-return (palindrome(s, findex + 1, lindex - 1));
+	if (*a == 0)
+		return (l - 1);
+	return (palind2(a + 1, l + 1));
 }
-
 /**
- * is_palindrome - check the code
- * @s: str
- * Return: Always 0.
+ * palind3 - compares string vs string reverse
+ * @a: string
+ * @l: length
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+int palind3(char *a, int l)
+{
+	if (*a != *(a + l))
+		return (0);
+	else if (*a == 0)
+		return (1);
+	return (palind3(a + 1, l - 2));
+}
+/**
+ * is_palindrome - checks if a string is a palindrome
+ * @s: string to evaluate
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int is_palindrome(char *s)
 {
-int length = strlen(s);
-if (length == 0 || length == 1)
-{
-return (1);
-}
-return (palindrome(s, 0, length - 1));
+	int l;
+
+	l = palind2(s, 0);
+	return (palind3(s, l));
 }
