@@ -1,5 +1,8 @@
 #ifndef DLINKED_LISTS
 #define DLINKED_LISTS
+
+#include <stdio.h>
+
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
