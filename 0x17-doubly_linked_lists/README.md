@@ -1,10 +1,11 @@
 0x17. C - Doubly linked lists
+
 CAlgorithmData structure
 
     By: Julien Barbier
     Weight: 1
-    Project will start Dec 7, 2023 4:00 AM, must end by Dec 8, 2023 4:00 AM
-    Checker was released at Dec 7, 2023 10:00 AM
+    Project will start Mar 21, 2024 3:00 AM, must end by Mar 22, 2024 3:00 AM
+    Checker will be released at Mar 21, 2024 9:00 AM
     An auto review will be launched at the deadline
 
 Resources
