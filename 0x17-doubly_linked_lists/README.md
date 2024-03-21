@@ -1,6 +1,6 @@
-0x17. C - Doubly linked lists
+# 0x17. C - Doubly linked lists
 
-CAlgorithmData structure
+## CAlgorithmData structure
 
     By: Julien Barbier
     Weight: 1
@@ -8,13 +8,13 @@ CAlgorithmData structure
     Checker will be released at Mar 21, 2024 9:00 AM
     An auto review will be launched at the deadline
 
-Resources
+# Resources
 
-Read or watch:
+## Read or watch:
 
     What is a Doubly Linked List
 
-Learning Objectives
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 General
@@ -24,15 +24,15 @@ General
     Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
     Start to look for the right source of information without too much help
 
-Copyright - Plagiarism
+## Copyright - Plagiarism
 
     You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
     You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
     You are not allowed to publish any content of this project.
     Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-Requirements
-General
+## Requirements
+## General
 
     Allowed editors: vi, vim, emacs
     All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -47,9 +47,9 @@ General
     Don’t forget to push your header file
     All your header files should be include guarded
 
-More Info
+## More Info
 
-Please use this data structure for this project:
+## Please use this data structure for this project:
 
     /**
     * struct dlistint_s - doubly linked list
