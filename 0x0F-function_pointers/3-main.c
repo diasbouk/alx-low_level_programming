@@ -21,7 +21,7 @@ int main(int ac, char **av)
 		printf("Error\n");
 		return (99);
 	}
-	if ((av[2][0] == '%' || av[2][0] == '/') && atoi(av[3]) == 0)
+	if ((!strcmp(av[2], "%") || !strcmp(av[2], "/")) && atoi(av[3]) == 0)
 	{
 		printf("Error\n");
 		return (100);
