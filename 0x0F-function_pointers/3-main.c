@@ -13,17 +13,17 @@ int main(int ac, char **av)
 
 	if (ac != 4)
 	{
-		printf("Error count\n");
+		printf("Error");
 		return (0);
 	}
 	if (!get_op_func(av[2]))
 	{
-		printf("Error func\n");
+		printf("Error");
 		return (0);
 	}
 	if ((av[2][0] == '%' || av[2][0] == '/') && atoi(av[3]) == 0)
 	{
-		printf("Error func\n");
+		printf("Error");
 		return (0);
 	}
 	func = get_op_func(av[2]);
