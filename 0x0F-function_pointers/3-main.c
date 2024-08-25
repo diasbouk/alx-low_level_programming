@@ -1,0 +1,32 @@
+#include "./3-calc.h"
+
+/**
+	* main - main function
+	* @ac: args count
+	* @av: Array of args as strings
+	* Return: 0 in success , non null value otherwise
+*/
+
+int main(int ac, char **av)
+{
+	int (*func)(int, int);
+
+	if (ac != 4)
+	{
+		printf("Error count\n");
+		return (0);
+	}
+	if (!get_op_func(av[2]))
+	{
+		printf("Error func\n");
+		return (0);
+	}
+	if ((av[2][0] == '%' || av[2][0] == '/') && atoi(av[3]) == 0)
+	{
+		printf("Error func\n");
+		return (0);
+	}
+	func = get_op_func(av[2]);
+	printf("%d\n", func(atoi(av[1]), atoi(av[3])));
+	return (0);
+}
